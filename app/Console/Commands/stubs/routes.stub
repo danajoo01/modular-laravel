@@ -1,0 +1,8 @@
+<?php
+Route::group(['middleware' => ['web']], function () {
+	Route::group(array('module' => 'DummyUCtitle', 'namespace' => 'App\Modules\DummyUCtitle\Controllers'), function() {
+
+	    Route::resource('DummyTitle/manage', 'DummyUCtitleController');
+	    
+	});	
+});

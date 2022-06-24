@@ -1,0 +1,53 @@
+html, body{background:#fff !important;}
+.login-wrapper{margin:20px 0;text-align:center;}
+.login-inside{width:600px;margin:20px auto;}
+.login-inside h1{text-align:center;font-size:24px;letter-spacing:1px;padding-bottom:20px;/*border-bottom:1px solid #999;*/margin-bottom:20px;}
+.login label{width:150px;display:inline-block;font-size:18px;text-align:left;float:left;}
+.login{text-align:center;}
+.username,.password{margin-bottom:10px;text-align:left;}
+.login input[type="text"],.login input[type="password"]{padding:10px;width:400px;box-sizing:border-box;border:1px solid #dedede;}
+.log-button{/*border:1px solid #000;*/display:inline-block;padding:2px;margin-right:5px;}
+.log-button input{background:#000;color:#fff;text-transform:uppercase;border:none;padding:10px 25px;display:block;line-height:1;cursor:pointer;border:1px solid transparent;}
+.log-button input:hover{background:#fff;color:#000;border:1px solid #000;}
+.log-fb{display:inline-block;padding:2px;/*border:1px solid #3A5795;*/}
+.log-fb input{color:#fff;text-transform:uppercase;border:none;padding:10px 25px;background:#3A5795;display:block;line-height:1;border:1px solid transparent;}
+/*.log-fb input:active{color:#3A5795;background:#fff;cursor:pointer;border:1px solid #000;}*/
+.submit-login {margin:20px 0 20px 148px;text-align:left;}
+.forgot-pass{display:block;text-align:left;margin:0 148px;}
+.forgot-pass:hover{text-decoration:underline;}
+.or-wrapper{text-align:center;}
+.or{background:#fff;padding:0 10px;display:inline-block;position:relative;z-index:2;}
+.or span{text-transform:uppercase;background:#000;display:inline-block;color:#fff;padding:20px 10px;border-radius:200px;z-index:2;position:relative;}
+.or-line::before{width:100%;position:absolute;border-top:1px solid #000000;height:1px;left:0;top:50%;content:"";z-index:1;}
+.or-line{width:100%;text-align:center;position:relative;height:55px;z-index:1;}
+.regis-name input{width:33% !important;margin:0 2% 0 0;}
+.regis-email input{width:68% !important;}
+
+
+.login-left,.login-right{width:35%;;box-sizing:border-box;padding:10px;display:inline-block;text-align:left;}
+.login-left h1{font-size:22px;font-family:"Times New Roman", serif;font-style:italic;margin-bottom:20px;text-align:center;}
+.login-left input,.login-left a{display:block;width:100%;box-sizing:border-box;margin:10px 0;}
+.login-left a,.login-left p{text-decoration:underline;color:#000;line-height:2;font-size:12px;font-family:'arial';}
+.login-left p{text-decoration:none !important;line-height:1.3;}
+.login-left input[type="text"],.login-left input[type="password"]{border:1px solid #000;padding:8px 10px;background:#f2f2f2;}
+.login-left input[type="text"]:focus,.login-left input[type="password"]:focus{background:#fff;}
+.login-left input[type="submit"]{background:#000;color:#fff;border:none;padding:10px;text-transform:uppercase;}
+a.disclaimer{text-decoration:none;line-height:1.5;}
+.disclaimer span{text-decoration:underline;}
+input.nama-depan{width:48.8%;display:inline-block;box-sizing:border-box;margin-bottom:1px;margin-top:0;}
+.ml5{margin-left:10%;}
+.ml25{margin-left:20%;}
+input.fb-login{background-color:#3A5795 !important;}
+.submit-button{background:#fff;border:1px solid #000;padding:1px;margin:10px 0;cursor:pointer;}
+.submit-button input,.submit-fb input{margin:0;cursor:pointer;}
+.submit-fb{border:1px solid #3A5795;padding:1px;background:#fff;}
+.cart-wrapper{margin-top:100px;}
+.error-msg-login{color:#A94442;text-align:center;display:block;background:#F2DEDE;border:1px solid #BF7271;box-sizing:border-box;padding:10px;margin-top:20px;position:relative;}
+.error-msg-login i{color:#A94442;margin-right:10px;}
+.error-msg-login .fa-times{position:absolute;right:0;cursor:pointer;}
+.cart-help{margin-top:100px;}
+.forgot{width:600px;margin:60px auto;text-align:center;}
+.forgot h1{margin:0;padding:10px;color:#555;}
+.forgot input[type="text"]{display:block;width:100%;box-sizing:border-box;padding:10px;border:none;border-bottom:1px solid #ccc;border-top:1px solid #ccc;text-align:center;margin:20px 0;}
+.forgot input[type="submit"]{display:inline-block;padding:10px;border:1px solid #ccc;background:none;width:200px;text-transform:uppercase;color:#555;letter-spacing:1px;}
+.forgot input[type="submit"]:hover{background:#000;color:#fff;}

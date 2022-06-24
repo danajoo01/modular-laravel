@@ -1,0 +1,95 @@
+.ac_results{
+	background: #f0f0f0 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1080px;
+    right: 0;
+    max-height: 400px;
+}
+.ac_results ul{
+	border-bottom:1px solid #999;
+    padding-left: 10px;
+}
+.ac_results li:last-child{
+	border:none;
+}
+.ac_results li:first-child{
+	margin-top: 5px;
+}
+.ac_results ul li .hvr{
+    padding:7px 10px;
+    display:block;
+    transition:none;
+    position:relative;
+}
+.ac_results ul li .hvr:hover{
+    background:#ccc;
+}
+.search-cat{position:absolute;
+    right:10px;
+    color:#cc6600;
+    font-style:italic;}
+.ac_results li>strong{
+	font-size: 12px;
+    font-weight: 400;
+}
+.ac_results li>span>h4{
+	font-weight:bold;
+    color:#999;
+    font-size:16px;
+    margin-bottom:5px;
+    padding-bottom:5px;
+    padding-top:10px;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+/*.ac_loading{background: white url(../img/_indicator.gif) right center no-repeat;}*/
+/*.ac_odd{background-color: #eee;}*/
+.ac_over{background-color: #ccc;}
+.ac_over:hover{cursor:pointer;}
+.search-sortby {
+    color: #999;
+    font-size: 16px;
+    position: absolute;
+    right: 115px;
+    top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #999;
+}
+.search-sortby select {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #444;
+    position: relative;
+    z-index: 4;
+    margin-right: -11px;
+}
+.search-catalog-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 90px;
+}
+.search-pagination {
+    margin-right: 95px;
+}
+.search-pagination .active {
+    padding: 10px;
+    background: #ccc;
+}
+.search-pagination ul li {
+    display: inline-block;
+}
+.search-pagination ul li a {
+    color: #999;
+    padding: 10px;
+    display: block;
+}
+.search-pagination ul li a:hover{
+    background-color:#ccc;
+    color:#fff;
+}
+.search-pagination.right li:first-child a,.search-pagination.right li:last-child a{
+    /*padding:5px 7px 4px;line-height:1.1;*/
+    padding:10px;
+}

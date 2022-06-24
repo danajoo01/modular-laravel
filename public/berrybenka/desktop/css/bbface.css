@@ -1,0 +1,35 @@
+html, body{background:url(https://berrybenka.com/berrybenka/desktop/img/errorbg.gif) repeat #f3f3f3;min-width:0;}
+.bg-overlay{background:rgba(255,255,255,.9);}
+.affiliate-header,.bbface-howto{max-width:1100px;margin:0 auto;}
+.bbf-content{max-width:1100px;margin:0 auto;padding:100px 0 0px 0;}
+.affiliate-header img{width:100%;height:auto;}
+.affiliate-header > p{text-align:center;font-family:'futura',arial;letter-spacing:1px;line-height:1.5;font-size:16px;margin:20px auto;width:80%;border-bottom:1px solid #999;padding-bottom:20px;}
+.bbface-howto{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #999;}
+.cara-gabung{max-width:1100px;margin:20px auto 0 auto;border-bottom:1px solid #999;padding-bottom:20px;}
+.cara-gabung h1{text-align:center;font-weight:bold;letter-spacing:1px;font-size:18px;margin-bottom:20px;}
+.cara-gabung ol{padding-left:20px;}
+.cara-gabung ol li{list-style:none;text-align:center;letter-spacing:1px;line-height:1.5;width:80%;margin:5px auto;}
+.two-collumn{display:flex;flex-wrap:nowrap;justify-content:space-between;}
+.l-col,.r-col{width:50%;box-sizing:border-box;padding:40px;}
+.two-collumn{border-bottom:1px solid #999;}
+.two-collumn h1{text-transform:uppercase;font-weight:bold;letter-spacing:1px;font-size:20px;color:#555;margin-bottom:20px;line-height:1.5;}
+.l-col{border-right:1px solid #999;}
+.two-collumn ul li{display:flex;margin-bottom:20px;}
+.hadiah-image{width:100px;overflow:hidden;margin-right:10px;}
+.two-collumn ul li p{padding:10px;font-size:16px;letter-spacing:1px;line-height:1.5;}
+.r-col span{display:block;letter-spacing:1px;font-size:16px;line-height:1.5;margin-bottom:20px;}
+.bbf-form input{display:block;border:none;}
+.bbf-form input[type="text"]{border:1px solid #ccc;width:100%;box-sizing:border-box;padding:10px;margin-bottom:10px;-webkit-appearance:none;border-radius:0;}
+.bbf-form input[type="submit"]{border:1px solid #999;letter-spacing:1px;padding:10px 60px;margin-top:40px;-webkit-appearance:none;border-radius:0;background:#ccc;}
+.bbf-info{padding:20px 0;text-align:center;}
+.bbf-info h1{font-weight:bold;text-transform:uppercase;letter-spacing:1px;line-height:1.5;margin-bottom:10px;}
+.bbf-info p{letter-spacing:1px;line-height:1.3;}
+.hadiah-wording h1{text-transform:capitalize;font-size:16px;margin:0;}
+.hadiah-wording p{padding:10px 0 !important;}
+@media only screen and (max-width:500px){
+	.two-collumn{display:block;}
+	.l-col,.r-col{width:100%;border:none;}
+	.r-col{border-top:1px solid #999;}
+	.two-collum ul li p{width:auto;}
+	.cara-gabung ol li{}
+}

@@ -1,0 +1,23 @@
+.pagination {
+    margin-right: 10px;
+}
+.pagination .active {
+    padding: 10px;
+    background: #ccc;
+}
+.pagination ul li {
+    display: inline-block;
+}
+.pagination ul li a {
+    color: #999;
+    padding: 10px;
+    display: block;
+}
+.pagination ul li a:hover{
+    background-color:#ccc;
+    color:#fff;
+}
+.pagination.right li:first-child a,.pagination.right li:last-child a{
+    /*padding:5px 7px 4px;line-height:1.1;*/
+    padding:10px;
+}

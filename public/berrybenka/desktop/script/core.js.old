@@ -1,0 +1,100 @@
+$( "#tabs" ).tabs({
+  hide: { effect: "slide", duration: 200 }
+});
+
+$(window).scroll(function() {
+    if ($(this).scrollTop()>0)
+     {
+        $('.top-header').fadeOut(0);
+		$('.bottom-header').addClass('nav-header');
+     }
+    else
+     {
+      $('.top-header').fadeIn(0);
+	  $('.bottom-header').removeClass('nav-header');
+     }
+ });
+ 
+ $(".chekout-arrow").click(function(){
+    $(".nav-checkout").toggle();
+});
+ $(".checkout-dd").click(function(){
+    $(".nav-checkout").toggle();
+});
+
+ $(".lengkap").click(function(){
+	$(this).toggleClass('lengkap tutup');
+    $('.prod-desc').toggleClass('detail-expand');
+});
+
+//$(function() {
+//    $( "#slider-range" ).slider({
+//      range: true,
+//      min: 0,
+//      max: 6000,
+//      values: [ 0, 6000 ],
+//      slide: function( event, ui ) {
+//        $( "#low-amount" ).val( "Rp" + " " + ui.values[ 0 ] + "K");
+//		$("#high-amount").val( "Rp"  + " " + ui.values[ 1 ] + "K");
+//      }
+//    });
+//    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+//      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+//  });
+  
+$('.brand-scroll').scrollable();
+$('#sidebar').hcSticky();
+ $(".addtowish a i").click(function(){
+    $(this).removeClass("fa-heart-o");
+	$(this).addClass("fa-heart");
+});
+
+ $(".detail-col").click(function(){
+    $(this).toggleClass("collapsing");
+});
+$(document).ready(function() {
+	$(".fancybox-effects-c").fancybox({
+		wrapCSS    : 'fancybox-custom',
+		closeClick : true,
+
+		openEffect : 'none',
+
+		helpers : {
+			title : {
+				type : 'inside'
+			},
+			overlay : {
+				css : {
+					'background' : 'rgba(238,238,238,0.85)'
+				}
+			}
+		}
+	});
+});
+$(function() {
+		$(".catalog-img img").lazyload({ placeholder: "loading.gif",effect : "fadeIn"});
+});
+if ($(".menu-list ul li").hasClass("has-child")) {
+	$(".menu-list ul li a i").addClass("fa fa-angle-down");
+};
+//select only one checkbox on filter list//
+$(".filter-category input:checkbox").on('click', function() {
+  var $box = $(this);
+  if ($box.is(":checked")) {
+    var group = "input:checkbox[name='" + $box.attr("name") + "']";
+    $(group).prop("checked", false);
+    $box.prop("checked", true);
+  } else {
+    $box.prop("checked", false);
+  }
+  $('input[data-level=parent]').change(function() {
+$('input[data-level=child]').prop('checked', false); 
+});
+});
+
+$('.detail-spec-detail .filter-color input:checkbox').click(function() {
+    $('.detail-spec-detail .filter-color input:checkbox').not(this).prop('checked', false);
+});
+$('.detail-spec-detail .filter-size input:checkbox').click(function() {
+    $('.detail-spec-detail .filter-size input:checkbox').not(this).prop('checked', false);
+});        

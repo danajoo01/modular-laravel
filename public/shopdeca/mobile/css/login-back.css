@@ -1,0 +1,27 @@
+html, body{background:url(../img/subtle_white_mini_waves.png);animation: animatedBackground 40s linear infinite;background-position: 0px 0px;background-repeat: repeat;
+/*-webkit-transform: translateZ(0);}
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 0% 100%; }
+	
+}*/
+}
+.login-wrapper{width:100%;height:100%;overflow:hidden;display:table;box-sizing:border-box;padding:5% 10%;background:rgba(255,255,255,.5);}
+.mid-login{width:200%;height:100%;display:table-cell;vertical-align:middle;position:relative;overflow:hidden;}
+.circle-logo{width:30px;margin:10px auto;}
+.form-login span{border:none;background:transparent;/*border-bottom:1px solid #ccc;*/display:block;margin:10px 0;display:block;position:relative;background:#fff;box-sizing:border-box;padding:5px 10px;border:1px solid #efefef;border-radius:2px;overflow:hidden;}
+.form-login span i{display:inline-block;color:#999;}
+.form-login span input{background:none;border:none;width:94%;box-sizing:border-box;padding:10px;}
+.mid-login-left {display: block;height: 100%;position: absolute;width: 100%;top:0;left:0;transition:all linear .2s .2s;}
+.mid-login-right {display: block;height: 100%;position: absolute;width: 100%;top:0;left:100%;transition:all linear .2s .2s;}
+.login-logo{text-align:center;width:200px;margin:12% auto 18% auto;opacity:0.7;}
+.form-login input[type="submit"]{background:#333;color:#fff;letter-spacing:1px;font-family:'gotham',arial;text-transform:uppercase;display:block;border:none;width:100%;padding:15px 0;margin:20px 0 10px 0;border-radius:2px;overflow:hidden;}
+.forgot-pass{display:block;text-align:center;font-size:12px;}
+.fb-login{position:relative;}
+.fb-login input[type="submit"]{background:#3A5795;margin:0 0 10px 0;}
+.new-cust,.b2log{letter-spacing:1px;font-size:12px;bottom:0px;position:absolute;display:block;text-align:center;width:100%;}
+.new-cust p:first-child{display:inline;margin:0 3px;padding:0;}
+.new-cust p:last-child{display:inline;margin:0 3px;padding:0;border-bottom:1px solid #999;}
+.slide-left{left:-100%;opacity:0;transform:translateX(-100%);}
+.slide-right{left:0%;opacity:1;transform:translateX(0%);}
+.form-sign-up input[type="submit"]{position:absolute;bottom:20px;}

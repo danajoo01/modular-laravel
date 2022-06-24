@@ -1,0 +1,55 @@
+.back-button {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: hsla(196, 100%, 33%, 0.96);
+    color: white;
+    position: inherit;
+}
+.back-button:hover {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: hsla(196, 100%, 33%, 0.49);
+    color: white;
+    position: inherit;
+}
+.text-input {
+    border: none;
+    background: #fff;
+    font-size: 12px;
+    width: 70%;
+    float: left;
+    padding: 4px 6px;
+}
+.dropdown-select {
+    width: 140px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background:url(../img/selectbg.png) right center no-repeat;
+}
+.btn-brand{
+    width: 20%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    color: #222;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: #FFF;
+    padding: 3px 0;
+    cursor: pointer;
+}
+.search-brand {
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #111;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    float: left;
+    border-radius: 5px;
+}

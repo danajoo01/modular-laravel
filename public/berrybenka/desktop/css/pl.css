@@ -1,0 +1,9 @@
+.berrybenka-app {
+  text-align: center; }
+  .berrybenka-app h1 {
+    margin: 0 !important; }
+  .berrybenka-app p {
+    margin: 5px 0 20px 0;
+    font-style: italic; }
+  .berrybenka-app a {
+    width: 94px; }

@@ -1,0 +1,39 @@
+.search-pagination {
+    margin: 0 0 50px;
+    text-align: center;
+}
+.search-pagination .active {
+    border: 1px solid #999;
+    border-radius: 3px;
+    color: #888;
+}
+.search-pagination ul li {
+    color: #aaa;
+    display: inline-block;
+    font-family: "gotham",serif;
+    font-size: 14px;
+    margin: 0 2px;
+    padding: 10px 13px;
+    transition: all 0s ease 0s;
+}
+.search-pagination ul li a {
+    color: #999;
+    padding: 10px;
+    display: block;
+}
+.search-pagination ul li a:hover{
+    background-color:#ccc;
+    color:#fff;
+}
+.search-pagination.right li:first-child a,.search-pagination.right li:last-child a{
+    /*padding:5px 7px 4px;line-height:1.1;*/
+    padding:10px;
+}
+.process-steps{
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

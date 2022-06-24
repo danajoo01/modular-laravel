@@ -1,0 +1,48 @@
+.special-wrapper {
+  padding: 70px 20px 60px 20px; }
+  .special-wrapper h1 {
+    text-align: center;
+    font-family: "stempel", arial;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 20px 0;
+    position: relative;
+    text-transform: uppercase; }
+  .special-wrapper ul {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%; }
+    .special-wrapper ul li {
+      display: block;
+      width: 49%; }
+      .special-wrapper ul li a {
+        display: block;
+        width: 100%; }
+        .special-wrapper ul li a img {
+          width: 100%;
+          display: block; }
+
+.tab-menu ul {
+  padding: 0;
+  margin: 10px 0 30px 0;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999; }
+  .tab-menu ul li {
+    text-align: center;
+    width: 50%; }
+    .tab-menu ul li a {
+      font-family: "gotham", serif;
+      box-sizing: border-box;
+      padding: 10px;
+      letter-spacing: 1px; }
+
+#lifestyle {
+  display: none; }
+
+.current a {
+  background: #999; }
+
+/*# sourceMappingURL=special.css.map */

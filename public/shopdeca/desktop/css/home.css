@@ -1,0 +1,11 @@
+.pd0{padding:0 !important;}
+.full a,.full img,.collumn3 a,.collumn3 a img{display:block;box-sizing:border-box;}
+.full a img,.collumn3 a img{width:100%;height:auto;}
+.full a,.halpage a{padding:0 10px;}
+.halfpage,.collumn3{margin:20px 0;}
+.halfpage a{display:block;float:left;width:50%;box-sizing:border-box;padding:0 10px;}
+.halfpage a img{width:100%;height:auto;}
+.collumn3 a {float:left;width:33.3%;padding:0 10px;}
+.promo-desc{text-align:center;font-size:18px;line-height:1.5;letter-spacing:1px;}
+.promo-desc span{display:inline-block;border-bottom:1px solid #555}
+.category-bar{text-transform:uppercase;font-size:30px;text-align:center;padding:20px;margin:20px;border-top:1px solid #555;}

@@ -1,0 +1,362 @@
+/* $font: 'futura', sans-serif */
+ .catalog-content {
+     padding-top: 75px;
+}
+ .catalog-content .catalog-wrapper {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+     -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+     overflow: hidden;
+}
+ .catalog-content .catalog-wrapper .filter {
+     width: 200px;
+     box-sizing: border-box;
+     padding: 0 20px;
+     float: left;
+     overflow: hidden;
+     -webkit-transition: all ease-out 0.2s 0.2s;
+    -o-transition: all ease-out 0.2s 0.2s;
+    transition: all ease-out 0.2s 0.2s;
+     margin-left: -100%;
+}
+ .catalog-content .catalog-wrapper .filter .filter-outer {
+     position: relative;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper {
+     width: 100%;
+     box-sizing: border-box;
+     overflow: hidden;
+     -webkit-transition: all ease-out 0.2s 0.2s;
+    -o-transition: all ease-out 0.2s 0.2s;
+    transition: all ease-out 0.2s 0.2s;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item {
+     width: 100%;
+     box-sizing: border-box;
+     padding-bottom: 20px;
+     margin-bottom: 20px;
+    /* border-bottom: $primary-border */
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item h2 {
+     text-transform: capitalize;
+     font-size: 14px;
+     line-height: 1.5;
+     margin-bottom: 5px;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul {
+     display: block;
+     padding: 0;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li {
+     padding: 3px 0;
+     width: 100%;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li input {
+     display: none;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li input:checked + label {
+     color: #000;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li input:checked + label:before {
+     background: #999;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li label {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+     cursor: pointer;
+     -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+     text-transform: capitalize;
+     font-size: 12px;
+     -webkit-transition: all ease-out 0.2s 0.2s;
+    -o-transition: all ease-out 0.2s 0.2s;
+    transition: all ease-out 0.2s 0.2s;
+     white-space: wrap;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li label:before {
+     display: block;
+     content: "";
+     width: 13px;
+     height: 13px;
+     border: 1px solid #dedede;
+     margin-right: 10px;
+     box-shadow: inset 0px 0px 0px 2px #f3f3f3;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li ul {
+     padding-left: 15px;
+     max-height: 0px;
+     overflow: hidden;
+     -webkit-transition: all ease-out 0.2s 0.2s;
+    -o-transition: all ease-out 0.2s 0.2s;
+    transition: all ease-out 0.2s 0.2s;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li input:checked ~ ul {
+     max-height: 300px;
+     padding-top: 5px;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.color ul {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+     -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.color ul li {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+     -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+     width: 30px;
+     box-sizing: border-box;
+     -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.color ul li label {
+     display: block;
+     width: 15px;
+     height: 15px;
+     border-radius: 30px;
+     overflow: hidden;
+     border: 1px solid #dedede;
+     -webkit-transition: all ease-out 0.2s 0.2s;
+    -o-transition: all ease-out 0.2s 0.2s;
+    transition: all ease-out 0.2s 0.2s;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.color ul li label:before {
+     display: none;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.color ul li input:checked + label {
+     box-shadow: inset 0px 0px 0px 4px #f3f3f3;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.price ul li label {
+     font-size: 12px;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.size ul {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+     -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.size ul li {
+     padding: 3px;
+     text-transform: capitalize;
+     width: auto;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.size ul li label {
+     border: 1px solid #dedede;
+     width: auto;
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     font-size: 10px;
+     padding: 3px;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.size ul li label:before {
+     display: none;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item.size ul li input:checked + label {
+     background: #F6F6F6;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .sort-wrapper .dropdown {
+     position: relative;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .sort-wrapper .dropdown i {
+     position: absolute;
+     right: 10px;
+     top: 50%;
+     transform: translate(0, -50%);
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .sort-wrapper .dropdown select {
+     border: 1px solid #dedede;
+     width: 98%;
+     box-sizing: border-box;
+     padding: 10px;
+     text-transform: capitalize;
+     position: relative;
+     appearance: none !important;
+}
+ .catalog-content .catalog-wrapper .filter .filter-wrapper .sort-wrapper .dropdown select option {
+     text-transform: capitalize;
+}
+ .catalog-content .catalog-wrapper .show-filter {
+     margin-left: 0;
+}
+ .catalog-content .catalog-wrapper .catalog-list {
+     width: 100%;
+     float: right;
+}
+ .catalog-content .catalog-wrapper .catalog-list ul {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+     -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+     padding: 0 20px;
+     width: 100%;
+     box-sizing: border-box;
+}
+ .catalog-content .catalog-wrapper .catalog-list ul li {
+     width: 32%;
+     box-sizing: border-box;
+     margin-right: 1.5%;
+     transition: all linear 0.2s 0.2s;
+}
+.catalog-content .catalog-wrapper .catalog-list ul li:nth-child(3n){
+    margin-right: 0;
+}
+ .catalog-content .catalog-wrapper .catalog-list ul li .catalog-detail {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+     -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+     padding: 10px 5px;
+}
+ .catalog-content .catalog-wrapper .catalog-list ul li .catalog-detail .detail-left {
+     width: 50%;
+}
+ .catalog-content .catalog-wrapper .catalog-list ul li .catalog-detail .detail-left h1 {
+     font-size: 12px;
+     text-transform: capitalize;
+     font-family: "futura-bold", serif;
+     margin: 0;
+     line-height: 1.5
+}
+ .catalog-content .catalog-wrapper .catalog-list ul li .catalog-detail .detail-left p {
+     color: #ed145b;
+     font-family: "futura-bold", serif;
+     font-size: 12px;
+     margin: 5px 0;
+     line-height: 1.5
+}
+ .catalog-content .catalog-wrapper .catalog-list ul li .catalog-detail .detail-right p {
+     margin: 5px 0;
+     font-size: 12px;
+     color: #999;
+     line-height: 1.5
+     text-decoration: line-through;
+}
+.catalog-content .catalog-wrapper .catalog-list ul li .catalog-detail .detail-right p{
+    margin-top: 0;
+}
+ .catalog-content .catalog-wrapper .catalog-list ul li .catalog-detail .detail-right p.discount {
+     color: #ed145b;
+     text-decoration: none;
+     font-family: "futura-bold", serif;
+}
+}
+ .catalog-content .catalog-wrapper .catalog-list.catalog-list-mini ul li {
+     width: 31.5%;
+}
+ .catalog-content .catalog-wrapper:before {
+     display: block;
+     content: "";
+     clear: both;
+     width: 0px;
+     height: 0px;
+}
+ .small-bc {
+     padding: 35px 0;
+     position: relative;
+}
+ .small-bc ul {
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+     -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+     padding: 0;
+}
+ .small-bc ul li {
+     width: auto;
+     padding: 0;
+     color: #dedede;
+     font-family: "futura", sans-serif;
+     font-size: 14px;
+}
+ .small-bc ul li a {
+     padding: 0 5px !important;
+     color: #dedede;
+     font-family: "futura", sans-serif;
+     text-transform: capitalize;
+     font-size: 14px;
+     margin: 0;
+}
+ .small-bc a.filter-trigger {
+     position: absolute;
+     top: 50%;
+     left: 0;
+     transform: translate(0, -50%);
+     text-transform: uppercase;
+     text-decoration: underline;
+     font-size: 11px;
+     letter-spacing: 3px;
+     padding: 20px;
+     font-family: "futura-bold", serif;
+}
+ .small-bc h1 {
+     text-align: center;
+     text-transform: capitalize;
+     font-size: 16px;
+     margin-top: 10px;
+     letter-spacing: 1px;
+}
+/*update 18418*/
+ .catalog-list ul li a{
+    position: relative;
+}
+ .catalog-list ul li a img.overlay-catalog{
+    position: absolute;
+     top: 0;
+     left: 0;
+}
+ @media only screen and (max-width: 1200px) {
+     .catalog-content .catalog-wrapper .catalog-list.catalog-list-mini ul li {
+         width: 48%;
+         margin-right: 2%
+    }
+    .catalog-content .catalog-wrapper .catalog-list.catalog-list-mini ul li:nth-child(2n){
+        margin-right: 0;
+    }
+    .catalog-content .catalog-wrapper .catalog-list.catalog-list-mini ul li:nth-child(3n){
+        margin-right: 2%;
+    }
+     .catalog-content .catalog-wrapper .filter .filter-wrapper .filter-item ul li label {
+         white-space: normal;
+         -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+}
+/*# sourceMappingURL=catalog.css.map */
+ 

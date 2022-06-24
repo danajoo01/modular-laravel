@@ -1,0 +1,32 @@
+.dlp .contact img {
+  width: 100%; }
+
+.dlp .download {
+  background: #fff;
+  padding: 40px 0;
+  margin: 10px 0 0 0; }
+  .dlp .download a {
+    display: block;
+    text-align: center; }
+    .dlp .download a h1 {
+      font-family: 'futura', serif;
+      text-transform: uppercase;
+      font-weight: normal !important;
+      font-size: 20px;
+      color: #000; }
+    .dlp .download a p {
+      margin: 3px 0 15px 0;
+      font-family: 'futura',serif;
+      font-weight: normal;
+      font-size: 16px;
+      color: #000;
+      font-style: italic; }
+    .dlp .download a .image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .dlp .download a .image img {
+        padding: 0 10px; }

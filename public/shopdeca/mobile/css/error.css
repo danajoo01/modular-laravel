@@ -1,0 +1,9 @@
+html, body{background:url(../img/404bg.jpg) center repeat;}
+.error-wrapper{padding:70px 20px 60px 20px;}
+.error-wrapper h1{text-align:center;font-family:'stempel',arial;line-height:1.4;letter-spacing:1px;font-size:18px;padding:20px 0;position:relative;}
+.error-wrapper h1:after{width:150px;content:'';border-bottom:1px solid #999;height:2px;position:absolute;bottom:0px;left:50%;margin-left:-75px;}
+.error-wrapper p{font-size:14px;line-height:1.3;font-family:'gotham',arial;text-align:center;letter-spacing:1px;margin:20px 0;}
+.error-wrapper a{display:block;text-align:center;margin:40px auto;}
+.error-wrapper img{width:250px;display:block;margin:0 auto;}
+.error-report {font-family: "gotham",arial;font-size: 10px;letter-spacing: 1px;padding: 10px 20px;text-align: center;line-height:1.3;}
+.error-wrapper p a{display:inline !important;border-bottom:1px solid #999;}
